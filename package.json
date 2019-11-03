@@ -17,6 +17,7 @@
     "watcherGlob": "**"
   },
   "devDependencies": {
+    "lerna": "^3.18.3",
     "parcel-plugin-static-files-copy": "^2.2.1",
     "sass": "^1.23.1",
     "typescript": "^3.6.4"
