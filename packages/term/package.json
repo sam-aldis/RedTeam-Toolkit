@@ -12,7 +12,7 @@
     "url": "https://github.com/sam-aldis/ukjp-term/issues"
   },
   "homepage": "https://github.com/sam-aldis/ukjp-term#readme",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Sam Aldis <samuel.aldis@owasp.org>",
   "license": "ISC",
   "main": "lib/term.js",
