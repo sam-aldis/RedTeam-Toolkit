@@ -1,0 +1,8 @@
+{
+    "name": "RedTeam Toolkit - Terminal",
+    "short_name" : "RedTeamTK - Term",
+    "start_url" : ".",
+    "background_color" : "#333333",
+    "description" : "Standard terminal for the RedTeam Toolkit",
+    "theme_color" : "#333333"
+}

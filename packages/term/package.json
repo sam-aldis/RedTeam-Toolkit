@@ -1,0 +1,29 @@
+{
+  "name": "term",
+  "private": true,
+  "repository": {
+    "url": "git+https://github.com/sam-aldis/ukjp-term.git"
+  },
+  "devDependencies": {
+    "lerna": "^3.18.3"
+  },
+  "description": "> TODO: description",
+  "bugs": {
+    "url": "https://github.com/sam-aldis/ukjp-term/issues"
+  },
+  "homepage": "https://github.com/sam-aldis/ukjp-term#readme",
+  "version": "0.0.0",
+  "author": "Sam Aldis <samuel.aldis@owasp.org>",
+  "license": "ISC",
+  "main": "lib/term.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}

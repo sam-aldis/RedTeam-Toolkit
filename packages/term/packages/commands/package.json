@@ -1,0 +1,19 @@
+{
+  "name": "commands",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Sam Aldis <samuel.aldis@owasp.org>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/commands.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
