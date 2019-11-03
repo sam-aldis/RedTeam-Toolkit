@@ -1,0 +1,50 @@
+@keyframes blink {
+    0% {
+    }
+    50% {
+        opacity: 0%;
+        transform: rotateY(180deg);
+    }
+    100% {
+    }
+}
+#terminal {
+    width: 100vw;
+    height: 40vh;
+    padding-top: 10px;
+    background: #232323;
+    color: #eecc22;;
+    b {
+        color: #FF2222;
+    }
+    u {
+        color: #22FF22;
+    }
+    i {
+        color: #2222FF;
+    }
+    font-family : "SourceCode", monospace;
+    line-height: 12px;
+    span {
+        display: inline;
+        &::before {
+            content : "λ "
+        }
+        .input {
+            display: inline;
+        }
+        .cursor {
+            display: inline-block;
+            border: 2px solid white;
+            width: 6px;
+            height: 12px;
+            animation-name: blink;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: both;
+            animation-direction: normal;
+            animation-timing-function: ease-in-out;
+            animation-play-state: running;
+        }
+    }
+}

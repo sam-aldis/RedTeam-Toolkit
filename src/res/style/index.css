@@ -1,0 +1,104 @@
+@charset "UTF-8";
+body, html {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0; }
+
+section {
+  height: 60vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0; }
+  section[data-show="false"] {
+    display: none; }
+
+iframe.vim {
+  height: 60vh;
+  width: 100vw; }
+  iframe.vim::-webkit-scrollbar {
+    display: none; }
+
+nav {
+  width: 100vw;
+  height: 30px; }
+  nav button {
+    background: #333333;
+    border-bottom: 1px solid #eecc22 inset;
+    color: #eecc22;
+    border: none;
+    min-width: 50px;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    outline: none; }
+
+@keyframes blink {
+  0% { }
+  50% {
+    opacity: 0%;
+    transform: rotateY(180deg); }
+  100% { } }
+
+#terminal {
+  width: 100vw;
+  height: 40vh;
+  padding-top: 10px;
+  background: #232323;
+  color: #eecc22;
+  font-family: "SourceCode", monospace;
+  line-height: 12px; }
+  #terminal b {
+    color: #FF2222; }
+  #terminal u {
+    color: #22FF22; }
+  #terminal i {
+    color: #2222FF; }
+  #terminal span {
+    display: inline; }
+    #terminal span::before {
+      content: "λ "; }
+    #terminal span .input {
+      display: inline; }
+    #terminal span .cursor {
+      display: inline-block;
+      border: 2px solid white;
+      width: 6px;
+      height: 12px;
+      animation-name: blink;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-fill-mode: both;
+      animation-direction: normal;
+      animation-timing-function: ease-in-out;
+      animation-play-state: running; }
+
+#notes {
+  display: inline-block;
+  background: #323333;
+  color: #EEEEEE;
+  height: 60vh;
+  width: 50vw;
+  margin: 0;
+  position: relative;
+  top: 10px;
+  left: 0;
+  border: none;
+  padding: 0;
+  outline: none; }
+
+#notesOut {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  margin: 0;
+  right: 0;
+  display: inline-block;
+  height: 60vh;
+  width: 50vw;
+  overflow: scroll;
+  background: #323333;
+  color: #EEEEEE;
+  vertical-align: top; }
+  #notesOut::-webkit-scrollbar {
+    display: none; }

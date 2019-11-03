@@ -1,0 +1,37 @@
+body, html {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+section {
+    height: 60vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    &[data-show="false"] {
+        display: none;
+    }
+}
+iframe.vim {
+    height: 60vh;
+    width: 100vw;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+nav {
+    width: 100vw;
+    height: 30px;
+    button {
+        background: #333333;
+        border-bottom: 1px solid #eecc22 inset;
+        color: #eecc22;
+        border: none;
+        min-width: 50px;
+        margin: 0;
+        padding: 0;
+        height: 30px;
+        outline: none;
+    }
+}

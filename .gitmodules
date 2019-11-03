@@ -1,0 +1,3 @@
+[submodule "term"]
+	path = term
+	url = ./term

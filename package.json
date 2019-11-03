@@ -1,0 +1,35 @@
+{
+  "name": "redteam-toolkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "author": "Sam Aldis",
+  "license": "ISC",
+  "staticFiles": {
+    "staticPath": "src/vim",
+    "watcherGlob": "**"
+  },
+  "devDependencies": {
+    "parcel-plugin-static-files-copy": "^2.2.1",
+    "sass": "^1.23.1",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@types/highlight.js": "^9.12.3",
+    "@types/ipfs": "git+https://github.com/vishalkuo/types-ipfs.git",
+    "@types/webtorrent": "^0.107.0",
+    "highlight.js": "^9.15.10",
+    "lit-element": "^2.2.1",
+    "lit-html": "^1.1.2",
+    "marked-ts": "^1.0.0-beta.4",
+    "vim-wasm": "0.0.12",
+    "webtorrent": "^0.107.16"
+  }
+}
